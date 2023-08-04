@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url('fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#padelquizz{
+    position: relative;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 490px;
+    top: 75px;
+}
+#imagenUno{
+    width: 140px;
+    position:absolute;
+    left: 400px;
+    top: -80px;
+}
+#imagenDos{
+    width: 400px;
+    position:absolute;
+    left: 70px;
+    top: 20px;
+}
+#resultado{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 320px;
+}
+#contador{
+    font-size:x-large;
+    text-align: center;
+    margin-top: 30px;
+}
+.linea{
+    background-color: black;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    border-radius: 50px;
+}
+
+.cuadrado{
+    width: 550px;
+    height: 600px;
+    background-color: white;
+    position: relative;
+    left: 480px;
+    top: 80px;
+    border-radius: 20px;
+    border: 2px solid;
+}
+.container-botones{
+    position: relative;
+    top: 50px;
+    left: 80px;
+}
+.botones{
+    text-transform: uppercase;
+    font-size: medium;
+    color: rgb(90, 90, 219);
+    border-radius: 5px;
+    background-color: white;
+    border-color: rgb(90, 90, 219);
+    padding: 10px;
+    display: flex;
+    margin-bottom: 8%; 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    transition: 0.5s;
+}
+.botones:hover{
+    background-color: rgb(255, 165, 0);
+    color: white;
+}
+.botones:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.next{
+ position: relative;
+ top: 50px;
+ left: 400px;
+}
+#next{
+    text-transform: uppercase;
+    font-size: medium;
+    color: white;
+    background-color: rgb(255, 165, 0);
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    transition: 0.5s;
+}
+#next:hover{
+background: rgba(248, 165, 14, 0.64);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.8px);
+-webkit-backdrop-filter: blur(10.8px);
+border: 1px solid rgba(248, 165, 14, 1);
+}
+#next:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
